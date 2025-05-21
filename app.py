@@ -15,7 +15,8 @@ app = Flask(__name__)
 # Initialize the client with your API key
 client = InferenceClient(
     provider="hyperbolic",
-    api_key=os.getenv("apiKey")
+    api_key=os.getenv("apiKey") # In order to have this working you need a variable called apiKey=""
+    # example: export apiKey="<your-api-key>"
 )
 
 # JSON file to store problem-solution pairs
