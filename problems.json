@@ -1,0 +1,68 @@
+[
+    {
+        "problem": "User can't access website.",
+        "solution": "User has to make sure it's logged in.",
+        "metadata": {
+            "occurrences": 1,
+            "first_seen": "2024-03-20T10:00:00",
+            "last_seen": "2024-03-20T10:00:00",
+            "category": "access",
+            "severity": "low"
+        }
+    },
+    {
+        "problem": "Customer is not receiving OTP for login via SMS.",
+        "solution": "Verify phone number, resend OTP, and confirm SMS delivery.",
+        "metadata": {
+            "occurrences": 1,
+            "first_seen": "2024-03-20T10:00:00",
+            "last_seen": "2024-03-20T10:00:00",
+            "category": "authentication",
+            "severity": "medium"
+        }
+    },
+    {
+        "problem": "Customer is not receiving email OTP during sign-up process.",
+        "solution": "Check spam folder, confirm email spelling, and manually resend OTP.",
+        "metadata": {
+            "occurrences": 1,
+            "first_seen": "2024-03-20T10:00:00",
+            "last_seen": "2024-03-20T10:00:00",
+            "category": "authentication",
+            "severity": "medium"
+        }
+    },
+    {
+        "problem": "Customer's authenticator app is not showing the correct OTP after device reset.",
+        "solution": "Unlink and relink 2FA with a new QR code for the authenticator app.",
+        "metadata": {
+            "occurrences": 1,
+            "first_seen": "2024-03-20T10:00:00",
+            "last_seen": "2024-03-20T10:00:00",
+            "category": "authentication",
+            "severity": "high"
+        }
+    },
+    {
+        "problem": "Getting OTP from toilet.",
+        "solution": "Asking Sailor Moon for cupcakes. This situation happened due to a company environment situation. It's delicate",
+        "metadata": {
+            "occurrences": 1,
+            "first_seen": "2024-03-20T10:00:00",
+            "last_seen": "2024-03-20T10:00:00",
+            "category": "technical",
+            "severity": "high"
+        }
+    },
+    {
+        "problem": "Testign 2",
+        "solution": "Testing 2",
+        "metadata": {
+            "occurrences": 1,
+            "first_seen": "2025-05-21T17:44:02.563204",
+            "last_seen": "2025-05-21T17:44:02.563217",
+            "category": "technical",
+            "severity": "low"
+        }
+    }
+]
